@@ -1,6 +1,6 @@
 ---
-title: This is my title
-layout: default
+title: lakka-switch
+layout: page
 ---
 
 Here is my page.
