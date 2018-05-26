@@ -43,6 +43,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
     * Game Boy Color
     * Game Boy Advance
     * NES
+    * N64
     * SNES
     * Virtual Boy
 * ScummVM
