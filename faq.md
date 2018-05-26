@@ -6,7 +6,7 @@ layout: page
 Here is a list of frequently asked questions and, obviously, an answer to each of them. What you want may already be listed on the [official LAKKA FAQ](http://www.lakka.tv/doc/FAQ/) so check it out aswell.
 
 ***
-> Which consoles are currently supported by the system ?
+> **Which consoles are currently supported by the system ?**
 
 ***
 
@@ -61,7 +61,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 * Uzebox
 
 ***
-> Which standalone games are currently included ? 
+> **Which standalone games are currently included ?**
 
 ***
 
@@ -74,7 +74,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 * XRick (Rick Dangerous rewrite)
 
 ***
-> Which miscellaneous cores are currently included ?
+> **Which miscellaneous cores are currently included ?**
 
 ***
 
@@ -86,23 +86,23 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 * Remote RetroPad (use your Switch as a joypad for your PC)
 
 ***
-> Why doesn't Wi-Fi Work ?
+> **Why doesn't Wi-Fi Work ?**
 
-> Why is `[]` the only Wi-Fi network ?
+> **Why is `[]` the only Wi-Fi network ?**
 
 ***
 
 Wi-Fi won't work on a cold boot of the system. Therefore, you need to reboot at least once into RCM and run the exploit again to fix Wi-Fi connectivity.
 
 ***
-> Where can I see the IP address of the Switch on my network ?
+> **Where can I see the IP address of the Switch on my network ?**
 
 ***
 
 From your Switch, you can see this in the first tab, Information > Network Information. From your host PC, various methods are listed [there](http://www.lakka.tv/doc/Finding-the-IP-of-your-Lakka-box/).
 
 ***
-> How do I add games to the system ?
+> **How do I add games to the system ?**
 
 ***
 
