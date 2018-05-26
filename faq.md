@@ -7,6 +7,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 ***
 > Which consoles are currently supported by the system ?
+
 ***
 
 * Amstrad CPC
@@ -60,6 +61,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 ***
 > Which standalone games are currently included ? 
+
 ***
 
 * 2048
@@ -72,6 +74,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 ***
 > Which miscellaneous cores are currently included ?
+
 ***
 
 * ChaiLove (2D game framework)
