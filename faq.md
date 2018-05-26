@@ -87,6 +87,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 ***
 > Why doesn't Wi-Fi Work ?
+
 > Why is `[]` the only Wi-Fi network ?
 
 ***
