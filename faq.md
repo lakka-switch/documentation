@@ -9,34 +9,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 ***
 
-|                                               |                                     |
-| --------------------------------------------- | ----------------------------------- |
-| * Amstrad CPC                                 | * NEC |
-| * Arcade                                      |    * PC Engine |
-|     * FB Alpha                                |    * PC Engine SuperGrafx |
-|     * MAME                                    |    * PC-98 |
-| * Atari                                       |    * PC-FX |
-|     * 2600                                    | * Nintendo |
-|     * 2500                                    |     * DS |
-|     * 7800                                    |     * Game Boy Color |
-|     * Jaguar                                  |     * Game Boy Advance |
-|     * Lynx                                    |     * NES | 
-|     * ST/STE/TT/Falcon                        |     * N64 |
-| * Bandai Wonderswan                           |     * SNES |
-| * Commodore                                   |     * Virtual Boy |
-|     * C128                                    | * ScummVM |
-|     * C64                                     | * Sega |
-|     * PLUS4                                   |     * Dreamcast |
-|     * VIC20                                   |     * Genesis / Megadrive |
-| * DOS                                         |     * Saturn |
-| * GCE Vectrex                                 | * Sharp X68000 |
-| * Handheld Electronic                         | * Sinclair ZX 81 |
-| * Magnavox Odyssey 2                          | * SNK Neo Geo Pocket |
-| * Mattel Intellivision                        | * Sony |
-| * MSX / SVI / ColecoVision / SG-1000          |     * PlayStation  |
-|                                               |     * PlayStation Portable |
-|                                               | * Uzebox |
-|                                               | * 3DO |
+{% include consoles_list.html %}
 
 > **Which standalone games are currently included ?**
 
