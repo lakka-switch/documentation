@@ -3,7 +3,7 @@ title: Frequently Asked Questions
 layout: page
 ---
 
-Here is a list of frequently asked questions and, obviously, an answer to each of them. What you want may already be listed on the [official LAKKA FAQ](http://www.lakka.tv/doc/FAQ/) so check it out aswell.
+Here is a list of frequently asked questions and, obviously, an answer to each of them. What you want may already be listed on the [official Lakka FAQ](http://www.lakka.tv/doc/FAQ/) so check it out aswell.
 
 ***
 > **Which consoles are currently supported by the system ?**
