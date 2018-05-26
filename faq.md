@@ -11,7 +11,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 {% include consoles_list.html %}
 
-&NewLine;
+&nbsp;
 > **Which standalone games are currently included ?**
 
 ***
@@ -24,7 +24,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 * TyrQuake (Quake 1 rewrite)
 * XRick (Rick Dangerous rewrite)
 
-&NewLine;
+&nbsp;
 > **Which miscellaneous cores are currently included ?**
 
 ***
@@ -36,21 +36,21 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 * EasyRPG (RPG Maker 2000/2003 engine)
 * Remote RetroPad (use your Switch as a joypad for your PC)
 
-&NewLine;
+&nbsp;
 > **Why doesn't Wi-Fi Work ? Why is `[]` the only Wi-Fi network ?**
 
 ***
 
 Wi-Fi won't work on a cold boot of the system. Therefore, you need to reboot at least once into RCM and run the exploit again to fix Wi-Fi connectivity.
 
-&NewLine;
+&nbsp;
 > **Where can I see the IP address of the Switch on my network ?**
 
 ***
 
 From your Switch, you can see this in the first tab, Information > Network Information. From your host PC, various methods are listed [there](http://www.lakka.tv/doc/Finding-the-IP-of-your-Lakka-box/).
 
-&NewLine;
+&nbsp;
 > **How do I add games to the system ?**
 
 ***
