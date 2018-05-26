@@ -95,6 +95,13 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 Wi-Fi won't work on a cold boot of the system. Therefore, you need to reboot at least once into RCM and run the exploit again to fix Wi-Fi connectivity.
 
 ***
+> Where can I see the IP address of the Switch on my network ?
+
+***
+
+From your Switch, you can see this in the first tab, Information > Network Information. From your host PC, various methods are listed [there](http://www.lakka.tv/doc/Finding-the-IP-of-your-Lakka-box/).
+
+***
 > How do I add games to the system ?
 
 ***
