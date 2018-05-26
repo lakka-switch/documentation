@@ -5,62 +5,39 @@ layout: page
 
 Here is a list of frequently asked questions and, obviously, an answer to each of them. What you want may already be listed on the [official Lakka FAQ](http://www.lakka.tv/doc/FAQ/) so check it out aswell.
 
-***
 > **Which consoles are currently supported by the system ?**
 
 ***
 
-* Amstrad CPC
-* Arcade
-    * FB Alpha
-    * MAME
-* Atari
-    * 2600
-    * 2500
-    * 7800
-    * Jaguar
-    * Lynx
-    * ST/STE/TT/Falcon
-* Bandai Wonderswan
-* Commodore
-    * C128
-    * C64
-    * PLUS4
-    * VIC20
-* DOS
-* GCE Vectrex
-* Handheld Electronic
-* Magnavox Odyssey 2
-* Mattel Intellivision
-* MSX / SVI / ColecoVision / SG-1000
-* NEC
-    * PC Engine
-    * PC Engine SuperGrafx
-    * PC-98
-    * PC-FX
-* Nintendo
-    * DS
-    * Game Boy Color
-    * Game Boy Advance
-    * NES
-    * N64
-    * SNES
-    * Virtual Boy
-* ScummVM
-* Sega
-    * Dreamcast
-    * Genesis
-    * Saturn
-* Sharp X68000
-* Sinclair ZX 81
-* SNK Neo Geo Pocket
-* Sony
-    * PlayStation
-    * PlayStation Portable
-* 3DO
-* Uzebox
+|                                               |                                     |
+| --------------------------------------------- | ----------------------------------- |
+| * Amstrad CPC                                 | * NEC |
+| * Arcade                                      |    * PC Engine |
+|     * FB Alpha                                |    * PC Engine SuperGrafx |
+|     * MAME                                    |    * PC-98 |
+| * Atari                                       |    * PC-FX |
+|     * 2600                                    | * Nintendo |
+|     * 2500                                    |     * DS |
+|     * 7800                                    |     * Game Boy Color |
+|     * Jaguar                                  |     * Game Boy Advance |
+|     * Lynx                                    |     * NES | 
+|     * ST/STE/TT/Falcon                        |     * N64 |
+| * Bandai Wonderswan                           |     * SNES |
+| * Commodore                                   |     * Virtual Boy |
+|     * C128                                    | * ScummVM |
+|     * C64                                     | * Sega |
+|     * PLUS4                                   |     * Dreamcast |
+|     * VIC20                                   |     * Genesis / Megadrive |
+| * DOS                                         |     * Saturn |
+| * GCE Vectrex                                 | * Sharp X68000 |
+| * Handheld Electronic                         | * Sinclair ZX 81 |
+| * Magnavox Odyssey 2                          | * SNK Neo Geo Pocket |
+| * Mattel Intellivision                        | * Sony |
+| * MSX / SVI / ColecoVision / SG-1000          |     * PlayStation  |
+|                                               |     * PlayStation Portable |
+|                                               | * Uzebox |
+|                                               | * 3DO |
 
-***
 > **Which standalone games are currently included ?**
 
 ***
@@ -73,7 +50,6 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 * TyrQuake (Quake 1 rewrite)
 * XRick (Rick Dangerous rewrite)
 
-***
 > **Which miscellaneous cores are currently included ?**
 
 ***
@@ -85,23 +61,18 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 * EasyRPG (RPG Maker 2000/2003 engine)
 * Remote RetroPad (use your Switch as a joypad for your PC)
 
-***
-> **Why doesn't Wi-Fi Work ?**
-
-> **Why is `[]` the only Wi-Fi network ?**
+> **Why doesn't Wi-Fi Work ? Why is `[]` the only Wi-Fi network ?**
 
 ***
 
 Wi-Fi won't work on a cold boot of the system. Therefore, you need to reboot at least once into RCM and run the exploit again to fix Wi-Fi connectivity.
 
-***
 > **Where can I see the IP address of the Switch on my network ?**
 
 ***
 
 From your Switch, you can see this in the first tab, Information > Network Information. From your host PC, various methods are listed [there](http://www.lakka.tv/doc/Finding-the-IP-of-your-Lakka-box/).
 
-***
 > **How do I add games to the system ?**
 
 ***
