@@ -17,6 +17,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 ***
 
 * 2048
+* cannonball
 * Cave Story
 * Dinotharw
 * PrBoom (Doom 1 rewrite)
@@ -29,7 +30,6 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 ***
 
-* cannonball
 * ChaiLove (2D game framework)
 * Game Music Emu (video games music player)
 * Lutro (LUA game engine)
