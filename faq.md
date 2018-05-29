@@ -138,4 +138,11 @@ Short answer : no. Long answer : while the driver is currently not capable of ch
 
 ***
 
-See [the official Lakka documentation](http://www.lakka.tv/doc/Troubleshooting-Lakka/) to see how to access RetroArch logs from SSH (among others).
+See [the official Lakka documentation](http://www.lakka.tv/doc/Troubleshooting-Lakka/) for a guide on how to access RetroArch logs from SSH (among others).
+
+&nbsp;
+> **The timezone is wrong, how can I fix that ?**
+
+***
+
+See [the official Lakka documentation](http://www.lakka.tv/doc/Troubleshooting-Lakka/) for a guide on how to set the correct timezone in Lakka.
