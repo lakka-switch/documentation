@@ -93,6 +93,13 @@ You need to copy your games to the `roms` directory of the storage partition. Yo
 Once your games are copied, go to the tab which icon is a plus sign (on Lakka, on the Switch) and scan the directory where you added your game (you can just scan the top-level directory, it will go through everything recursively). If your games were recognized, new tabs will appear (one for each console) with them listed inside. If not, you can still load the game manually from the first tab.
 
 &nbsp;
+> **When I mount the storage partition on my PC I can't edit or delete any file, why ?**
+
+***
+
+Lakka only has one user : `root`. So, the files created by Lakka on the storage partition are all owned by `root`. When mounting the partition on your host PC, you therefore need root privileges to delete or edit the files created by Lakka. This is stupid but this is how it works. Protip : SMB and SCP both don't have this issue.
+
+&nbsp;
 > **How do I shutdown my Switch from Lakka ?**
 
 ***
@@ -153,6 +160,13 @@ It happens sometimes : it boots but the LCD stays black. When it happens, wait a
 ***
 
 Short answer : no. Long answer : while the driver is currently not capable of charging Joy-Cons, this is a feature that's being worked on.
+
+&nbsp;
+> **How do I overclock or underclock the GPU ? What is the GPU profile setting in the first tab ?**
+
+***
+
+This setting allows you to underclock or overclock the GPU of the Switch. At each reboot, the non-docked is applied. While underclocking the GPU can allow the battery to drain slower, be aware that higher profiles may cause power failures when the Switch is not docked. Plus, the Switch was not made to exceed the docked profile : use at your own risk.
 
 &nbsp;
 > **How can I see the logs of RetroArch ? How can I troubleshoot Lakka ?**
