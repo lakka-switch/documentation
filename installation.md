@@ -15,6 +15,7 @@ layout: page
     * A PC on Windows or Linux
     * A Mac
     * An Android device with USB OTG
+* An USB cable to plug the Switch in and run the exploit (USB C-to-C or C-to-A)
     
 ## Step 1 : preparing the SD card
 
