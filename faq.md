@@ -63,7 +63,7 @@ See this tiny table for a summary of what works and what doesn't :
 * Remote RetroPad (use your Switch as a joypad for your PC)
 
 &nbsp;
-> **Why doesn't Wi-Fi Work ? Why is `[]` the only Wi-Fi network ?**
+> **Why doesn't Wi-Fi Work ?**
 
 ***
 
