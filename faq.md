@@ -132,3 +132,10 @@ First, hold the power button for twelve seconds to make sure that the Switch if 
 ***
 
 Short answer : no. Long answer : while the driver is currently not capable of charging Joy-Cons, this is a feature that's being worked on.
+
+&nbsp;
+> **How can I see the logs of RetroArch ? How can I troubleshoot Lakka ?**
+
+***
+
+See [the official Lakka documentation](http://www.lakka.tv/doc/Troubleshooting-Lakka/) to see how to access RetroArch logs from SSH (among others).
