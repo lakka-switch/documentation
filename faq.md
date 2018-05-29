@@ -84,3 +84,10 @@ From your Switch, you can see this in the first tab, Information > Network Infor
 You need to copy your games to the `roms` directory of the storage partition. You have three ways of achieving that, depending on your host operating system : see [this guide](http://www.lakka.tv/doc/Accessing-Lakka-filesystem/) to know how.
 
 Once your games are copied, go to the tab which icon is a plus sign (on Lakka, on the Switch) and scan the directory where you added your game (you can just scan the top-level directory, it will go through everything recursively). If your games were recognized, new tabs will appear (one for each console) with them listed inside. If not, you can still load the game manually from the first tab.
+
+&nbsp;
+> **How do I shutdown my Switch from Lakka ?**
+
+***
+
+Short answer : you can't, reboot to Horizon then shutdown. Long answer : the shutdown option in Lakka was removed for safety reasons ; to shutdown, reboot to RCM then press the power button for twelve seconds. It is a good idea to boot in Horizon to shutdown properly from here.
