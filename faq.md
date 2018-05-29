@@ -109,11 +109,25 @@ Don't worry, your Switch is not bricked. You most probably left it in RCM mode f
 First, hold the POWER button for twelve seconds to make sure that the Switch if off, then place it on the dock and wait for it to charge at 100%. Don't forget that the battery is decalibrated !
 
 &nbsp;
-> ** I have black squares everywhere, the font is ugly and nothing works**
+> **I have black squares everywhere, the font is ugly and nothing works**
 
 ***
 
 Your RetroArch configuration file somehow got corrupted. Delete the `.config/retroarch/retroarch.cfg` file of the **storage** partition and try again. If doing it over SSH, don't forget to stop RetroArch first : `systemctl stop retroarch && rm -rf /storage/.config/retroarch/retroarch.cfg && systemctl start retroarch`.
+
+&nbsp;
+> **My games are always freezing**
+
+***
+
+Enable Advanced settings in User Interface then disable Threaded Video in Video settings. It may enable itself again in the future so be careful.
+
+&nbsp;
+> **Sometimes the exploit works but nothing happens on my Switch**
+
+***
+
+It happens sometimes : it boots but the LCD stays black. When it happens, wait a bit for RetroArch to launch (to prevent corrupting the configuration file) and force shutdown by holding the POWER button for twelve seconds. Try to boot again. If it _still_ happens, reboot to Horizon before trying again.
 
 &nbsp;
 > **How do I update Lakka ?**
