@@ -100,7 +100,7 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
 Short answer : you can't, reboot to Horizon then shutdown. Long answer : the shutdown option in Lakka was removed for safety reasons ; to shutdown, reboot to RCM then press the power button for twelve seconds. It is a good idea to boot in Horizon to shutdown properly from here.
 
 &nbsp;
-> **My Switch doesn't turn on anymore / won't turn on unless it's docked / it's bricked
+> **My Switch doesn't turn on anymore / won't turn on unless it's docked / it's bricked**
 
 ***
 
