@@ -162,3 +162,14 @@ The Resume option can be reached in two ways :
 ***
 
 Just reboot then !
+
+
+&nbsp;
+> **PPSSPP (PSP emulator) doesn't work / displays a black screen**
+
+***
+
+To make PPSSPP work you first need to copy the assets in the system directory :
+
+1. Download [this archive](https://github.com/hrydgard/ppsspp/archive/master.zip)
+2. Using a method of your choice, extract all the content of the `assets` directory in the `system/PPSSPP` directory of the **storage partition** (create it if it doesn't exist)
