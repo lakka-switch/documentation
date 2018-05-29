@@ -141,7 +141,7 @@ Short answer : no. Long answer : while the driver is currently not capable of ch
 See [the official Lakka documentation](http://www.lakka.tv/doc/Troubleshooting-Lakka/) for a guide on how to access RetroArch logs from SSH (among others).
 
 &nbsp;
-> **The timezone is wrong, how can I fix that ?**
+> **The time and date are wrong, how can I fix that ?**
 
 ***
 
@@ -155,3 +155,10 @@ See [the official Lakka documentation](http://www.lakka.tv/doc/Troubleshooting-L
 The Resume option can be reached in two ways :
 1. First tab > Quick menu
 2. Current game entry in your playlists (aka "console" tabs)
+
+&nbsp;
+> **Lakka is slower than usual / video is choppy while it normally isn't**
+
+***
+
+Just reboot then !
