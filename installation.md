@@ -14,14 +14,13 @@ layout: page
 * A way to run the exploit : 
     * A PC on Windows or Linux
     * A Mac
-    * An Android phone
-    
+    * An Android device with USB OTG
     
 ## Step 1 : preparing the SD card
 
 ### The easy way (recommended, formats your SD card)
 
-1. Download the latest image from [here](https://natinusala.cheats-inc.org/natinusala/lakka-switch/archives/images/) (use your brain to grab the latest)
+1. Download the latest compressed image from [here](https://natinusala.cheats-inc.org/natinusala/lakka-switch/archives/images/) (use your brain to grab the latest)
 2. Extract the image using the archiver of your choice (7-Zip wink wink)
 3. Burn the image to the SD card (**everything will be erased**)
     * Either by using [Etcher](https://etcher.io/)
@@ -36,3 +35,17 @@ layout: page
     * `KERNEL`, `KERNEL.md5`, `SYSTEM` and `SYSTEM.md5` (contains the read-only system partition and the kernel)
     * the content of the directory `3rdparty/bootloader` (contains the boot script and device tree)
 5. (advanced) If you want to set _another_ partition as storage, remake `boot/boot.scr` using `mkimage` and change the `disk` variable of the boot command
+
+## Step 2 : booting Lakka
+
+Once your SD card is set up, put it back in your Switch.
+
+{% include first_boot.html %}
+
+## Booting from Windows
+
+## Booting from Linux & Mac OS
+
+## Booting from an Android device
+
+
