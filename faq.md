@@ -166,7 +166,9 @@ Short answer : no. Long answer : while the driver is currently not capable of ch
 
 ***
 
-This setting allows you to underclock or overclock the GPU of the Switch. At each reboot, the non-docked is applied. While underclocking the GPU can allow the battery to drain slower, be aware that higher profiles may cause power failures when the Switch is not docked. Plus, the Switch was not made to exceed the docked profile : use at your own risk.
+This setting allows you to underclock or overclock the GPU of the Switch. At each reboot, the non-docked profile is applied. 
+
+While underclocking the GPU can allow the battery to drain slower, be aware that higher profiles may cause power failures when the Switch is not docked. Plus, the Switch was not made to exceed the docked profile : use at your own risk.
 
 &nbsp;
 > **How can I see the logs of RetroArch ? How can I troubleshoot Lakka ?**
