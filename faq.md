@@ -194,3 +194,24 @@ To make PPSSPP work you first need to copy the assets in the system directory :
 
 1. Download [this archive](https://github.com/hrydgard/ppsspp/archive/master.zip)
 2. Using a method of your choice, extract all the content of the `assets` directory in the `system/PPSSPP` directory of the **storage partition** (create it if it doesn't exist)
+
+&nbsp;
+> **Can my console be banned because I used Lakka ?**
+
+***
+
+¯\\\_(ツ)\_/¯
+
+&nbsp;
+> **Can I update my console and still use Lakka ?**
+
+***
+
+Can you ? Yes. Should you ? No.
+
+&nbsp;
+> **Where can I donate ? Can I buy you a beer ?**
+
+***
+
+Don't buy _me_ a beer. [Buy _libretro_ a beer.](https://salt.bountysource.com/checkout/amount?team=libretro)
