@@ -34,7 +34,7 @@ See this tiny table for a summary of what works and what doesn't :
 | Hardware graphics acceleration | USB Host          |
 | Wired Joy-Cons                 | Dock support      |
 | GPU Profile Selection          | SDXC cards        |
-| SSH, SMB                       |                   |
+| SSH, SMB                       | Wireless Joy-Cons |
 
 &nbsp;
 > **Which consoles and systems are currently supported ?**
