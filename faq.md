@@ -13,6 +13,13 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 **Yes.** Lakka **will** desynchronize your battery and your internal clock. Lakka **will** cause screen burn-ins if you let it on the menu for too long.
 
 &nbsp;
+> **Will it brick my Switch ? Will it replace my system ?**
+
+***
+
+**No.** Lakka boots from the SD card, it never touches the NAND of the console. It's a "dual boot", if you prefer. However, using Lakka does have side effects, listed in the above question.
+
+&nbsp;
 > **What currently works ? What doesn't ?**
 
 ***
