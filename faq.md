@@ -109,6 +109,13 @@ Don't worry, your Switch is not bricked. You most probably left it in RCM mode f
 First, hold the POWER button for twelve seconds to make sure that the Switch if off, then place it on the dock and wait for it to charge at 100%. Don't forget that the battery is decalibrated !
 
 &nbsp;
+> ** I have black squares everywhere, the font is ugly and nothing works**
+
+***
+
+Your RetroArch configuration file somehow got corrupted. Delete the `.config/retroarch/retroarch.cfg` file of the **storage** partition and try again. If doing it over SSH, don't forget to stop RetroArch first : `systemctl stop retroarch && rm -rf /storage/.config/retroarch/retroarch.cfg && systemctl start retroarch`.
+
+&nbsp;
 > **How do I update Lakka ?**
 
 ***
