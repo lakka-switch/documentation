@@ -18,7 +18,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 ***
 
 | Works                          | Doesn't work      |
-|--------------------------------|-------------------|
+|:------------------------------:|:-----------------:|
 | Wi-Fi (after a reboot)         | Audio             |
 | Bluetooth (partially)          | Sleep mode        |
 | Touch screen                   | Graceful shutdown |
