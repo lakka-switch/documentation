@@ -5,6 +5,28 @@ layout: page
 
 Here is a list of frequently asked questions and, obviously, an answer to each of them. What you want may already be listed on the [official Lakka FAQ](http://www.lakka.tv/doc/FAQ/) so check it out aswell.
 
+> **Does Lakka still have [insert standard Linux issues here] ?
+
+***
+
+**Yes.** Lakka **will** desynchronize your battery and your internal clock. Lakka **will** cause screen burn-ins if you let it on the menu for too long.
+
+&nbsp;
+> **What currently works ? What doesn't ?**
+
+***
+
+| Works                          | Doesn't work      |
+|--------------------------------|-------------------|
+| Wi-Fi (after a reboot)         | Audio             |
+| Bluetooth (partially)          | Sleep mode        |
+| Touch screen                   | Graceful shutdown |
+| Hardware graphics acceleration | USB Host          |
+| Wired Joy-Cons                 | Dock support      |
+| GPU Profile Selection          | SDXC cards        |
+| SSH, SMB                       |                   |
+
+&nbsp;
 > **Which consoles and systems are currently supported ?**
 
 ***
