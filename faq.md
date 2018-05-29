@@ -113,7 +113,7 @@ First, hold the POWER button for twelve seconds to make sure that the Switch if 
 
 ***
 
-Your RetroArch configuration file somehow got corrupted. Delete the `.config/retroarch/retroarch.cfg` file of the **storage** partition and try again. If doing it over SSH, don't forget to stop RetroArch first : `systemctl stop retroarch && rm -rf /storage/.config/retroarch/retroarch.cfg && systemctl start retroarch`.
+Your RetroArch configuration file somehow got corrupted. Delete the `.config/retroarch/retroarch.cfg` file of the **storage** partition and try again. If doing it over SSH, don't forget to stop RetroArch first : `systemctl stop retroarch && rm -f /storage/.config/retroarch/retroarch.cfg && systemctl start retroarch`.
 
 &nbsp;
 > **My games are always freezing**
