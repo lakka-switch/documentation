@@ -4,10 +4,10 @@ description: >
   How to run and use Lakka.tv on
   the Nintendo Switch
 
-baseurl: "/lakka-switch-documentation" # the subpath of your site, e.g. /blog/
-url: https://lakka-switch.github.io/lakka-switch-documentation/ # the base hostname & protocol for your site
-git_address: https://github.com/lakka-switch/lakka-switch-documentation
-git_edit_address: https://github.com/lakka-switch/lakka-switch-documentation/blob/gh-pages
+baseurl: "/documentation" # the subpath of your site, e.g. /blog/
+url: https://lakka-switch.github.io/documentation/ # the base hostname & protocol for your site
+git_address: https://github.com/lakka-switch/documentation
+git_edit_address: https://github.com/lakka-switch/documentation/blob/gh-pages
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
