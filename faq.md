@@ -125,3 +125,10 @@ First, hold the power button for twelve seconds to make sure that the Switch if 
 2. Using a method of your choice, extract the right files from the archive to the root of the **FAT32 partition** (replace everything) :
     * `KERNEL`, `KERNEL.md5`, `SYSTEM` and `SYSTEM.md5` to the root (contains the read-only system partition and the kernel)
     * the content of the directory `3rdparty/bootloader` (contains the boot script and device tree)
+
+&nbsp;
+> **Do my Joy-Cons charge when using Lakka ?**
+
+***
+
+Short answer : no. Long answer : while the driver is currently not capable of charging Joy-Cons, this is a feature that's being worked on.
