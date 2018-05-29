@@ -17,6 +17,8 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 ***
 
+See this tiny table for a summary of what works and what doesn't :
+
 | Works                          | Doesn't work      |
 |:------------------------------:|:-----------------:|
 | Wi-Fi (after a reboot)         | Audio             |
