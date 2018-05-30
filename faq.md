@@ -212,4 +212,11 @@ Can you ? Yes. Should you ? No.
 
 ***
 
-Don't buy _me_ a beer. [Buy _libretro_ a beer.](https://salt.bountysource.com/checkout/amount?team=libretro)
+Don't buy _me_ a beer. [Buy _libretro_ a beer.](https://www.patreon.com/libretro)
+
+&nbsp;
+> **I can't access the Online Updater on Lakka, why ?**
+
+***
+
+Lakka on Switch is not upsreamed yet so the buildbot is not configured for the Online Updater. It will be added back if / when the Switch project is merged with the original Lakka repository.
