@@ -1,6 +1,6 @@
 ---
 title: Current boot chain
-permalink: /docs/bootchain
+permalink: /docs/bootchain/
 ---
 
 Henlo wold
