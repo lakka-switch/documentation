@@ -1,11 +1,7 @@
-- title: Getting Started
+- title: About Lakka
   docs:
-  - home
-  - themes
-  - customization
+  - bootchain
 
-- title: Examples
+- title: Advanced usage
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - howtobuild
