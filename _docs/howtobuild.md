@@ -1,6 +1,6 @@
 ---
 title: How to build
-permalink: /docs/howtobuild
+permalink: /docs/howtobuild/
 ---
 
 Henlo wold
