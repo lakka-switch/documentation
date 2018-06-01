@@ -49,4 +49,6 @@ cd Lakka-LibreELEC
 DISTRO=Lakka PROJECT=Switch ARCH=aarch64 make image
 ```
 
+You will encounter an error when compiling Linux, about an issue in `barrier.h`. To fix this, delete the `linux` directory in the build directory, and try again.
+
 The output kernel, system image, update package and full SD card image will be placed in the `target` directory.
