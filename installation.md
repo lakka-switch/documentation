@@ -96,3 +96,7 @@ Install Python 3 (usually already installed). Open a terminal to install the req
     * If nothing happens, I'm afraid your phone doesn't have OTG (or it's not enabled) - the exploit might now work
 2. Put your Switch in RCM mode
 3. Done !
+
+## Now what ?
+
+I suggest you read the FAQ, especially on how to access the storage partition and copy games. Actually, while you're here, read everything. Enjoy !
