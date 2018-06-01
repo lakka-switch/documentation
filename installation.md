@@ -3,8 +3,6 @@ title: Installing Lakka on your Switch
 layout: page
 ---
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 {% include disclaimer.html %}
 
 ## Step 0 : what you need
