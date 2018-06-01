@@ -81,7 +81,7 @@ Install Python 3 (usually already installed). Open a terminal to install the req
 
 1. Download and install the latest release of [this app](https://github.com/lakka-switch/switch_linux_launcher/releases/latest)
 2. Run it - it will tell you that some files are missing, remember the folder in the dialog, it should look like one of these (Internal Or External Memory):
-    > `/Android/data/io.mrarm.switchlinuxlauncher/files/shofel2`
+    > /Android/data/io.mrarm.switchlinuxlauncher/files/shofel2
 4. Exit the app (if you can close the task using the multitask button it's better)
 5. From the `payloads` folder of the repository, copy the `cbfs.bin` and `coreboot.rom` files to the `shofel2` folder on your Android device (the folder of the previous step)
 6. Run the app again - if the dialog doesn't show up then you can go on, otherwise you did something wrong
