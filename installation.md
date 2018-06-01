@@ -79,7 +79,7 @@ Install Python 3 (usually already installed). Open a terminal to install the req
 
 **Preparation work**
 
-1. Download and install the latest release of this app : https://github.com/natinusala/switch_linux_launcher/releases/latest
+1. Download and install the latest release of [this app](https://github.com/lakka-switch/switch_linux_launcher/releases/latest)
 2. Run it - it will tell you that some files are missing, remember the folder in the dialog, it should look like one of these :
     * `/storage/emulated/0/Android/data/io.mrarm.switchlinuxlauncher.noimx/files/shofel2`
     * `/sdcard/Android/data/io.mrarm.switchlinuxlauncher.noimx/files/shofel2`
