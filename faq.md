@@ -33,8 +33,9 @@ See this tiny table for a summary of what works and what doesn't :
 | Touch screen                   | Graceful shutdown |
 | Hardware graphics acceleration | USB Host          |
 | Wired Joy-Cons                 | Dock support      |
-| GPU Profile Selection          | SDXC cards        |
-| SSH, SMB                       | Wireless Joy-Cons |
+| GPU Profile Selection          | Wireless Joy-Cons |
+| SSH, SMB                       |                   |
+| SDXC cards
 
 &nbsp;
 > **Which consoles and systems are currently supported ?**
