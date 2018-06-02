@@ -93,7 +93,7 @@ Install Python 3 (usually already installed). Open a terminal to install the req
 1. Plug your Switch in your Android device
     * If the Switch is charging from your phone, you can go on
     * If your phone is charging from the Switch, try to reverse the cabling so that your phone charges the Switch instead
-    * If nothing happens, I'm afraid your phone doesn't have OTG (or it's not enabled) - the exploit might now work
+    * If nothing happens, I'm afraid your phone doesn't have OTG (or it's not enabled) - the exploit might not work
 2. Put your Switch in RCM mode
 3. Done !
 
