@@ -28,7 +28,7 @@ See this tiny table for a summary of what works and what doesn't :
 
 | Works                          | Doesn't work      |
 |:------------------------------:|:-----------------:|
-| Wi-Fi (after a reboot)         | Audio             |
+| Wi-Fi (after a reboot)         | Internal speakers & jack port |
 | Bluetooth (partially)          | Sleep mode        |
 | Touch screen                   | Graceful shutdown |
 | Hardware graphics acceleration | USB Host          |
@@ -36,6 +36,7 @@ See this tiny table for a summary of what works and what doesn't :
 | GPU Profile Selection          | Wireless Joy-Cons |
 | SSH, SMB                       |                   |
 | SDXC cards
+| Bluetooth Audio (AD2P) | |
 
 &nbsp;
 > **Which consoles and systems are currently supported ?**
@@ -99,6 +100,23 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
 ***
 
 Lakka only has one user : `root`. So, the files created by Lakka on the storage partition are all owned by `root`. When mounting the partition on your host PC, you therefore need root privileges to delete or edit the files created by Lakka. This is stupid but this is how it works. Protip : SMB and SCP both don't have this issue.
+
+&nbsp;
+> **How do I setup Bluetooth audio ?**
+
+***
+
+1. Make sure that Audio driver is set to pulse and Audio and Audio sync are enabled
+2. Enable Bluetooth in Services
+3. Pair your headset using SSH and `bluetoothctl` (use Putty on Windows)
+    1. `agent on`
+    2. `scan on`
+    3. Wait for your headset to show up and see its MAC address
+    4. `pair XX:XX:XX:XX:XX:XX`, put the correct MAC address (protip : use tab-completion)
+    5. `trust XX:XX:XX:XX:XX:XX`
+    6. `connect XX:XX:XX:XX:XX:XX`
+4. If the audio is choppy, make sure to update the boot/tegra210-nintendo-switch.dtb file on your SD card (take the one from the latest update archive)
+5. After a reboot, it should autoconnect to your device if it's available and still paired
 
 &nbsp;
 > **How do I shutdown my Switch from Lakka ?**
