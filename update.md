@@ -13,7 +13,7 @@ layout: page
 
 The update script will not update the device tree blob. This may break stuff when updating your copy of Lakka. You will need to update it manually if needed :
 1. Download the **latest** archive from [this repository](https://natinusala.cheats-inc.org/natinusala/lakka-switch/archives/updates/) (use your brain to grab the latest)
-2. Copy the content of the directory `3rdparty/bootloader` to the FAT32 partition of your SD card
+2. Extract the content of the directory `3rdparty/bootloader` to the FAT32 partition of your SD card
 
 ## Manual update
 
