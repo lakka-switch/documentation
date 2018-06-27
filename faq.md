@@ -32,7 +32,7 @@ See this tiny table for a summary of what works and what doesn't :
 | Bluetooth (partially)          | Sleep mode        |
 | Touch screen                   | Graceful shutdown |
 | Hardware graphics acceleration | USB Host          |
-| Wired Joy-Cons                 | Dock support      |
+| Wired Joy-Cons (it means attached to the console)                | Dock support      |
 | GPU Profile Selection          | Wireless Joy-Cons |
 | SSH, SMB                       |                   |
 | SDXC cards
