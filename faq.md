@@ -37,6 +37,7 @@ See this tiny table for a summary of what works and what doesn't :
 | SSH, SMB                       |                   |
 | SDXC cards
 | Bluetooth Audio (AD2P) | |
+| Screen brightness control | |
 
 &nbsp;
 > **Which consoles and systems are currently supported ?**
