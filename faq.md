@@ -10,7 +10,7 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 ***
 
-**Yes.** Lakka **will** desynchronize your battery and your internal clock. Lakka **will** cause screen burn-ins if you let it on the menu for too long.
+The battery bug has been fixed as of the 02/07/2018 update. Be sure to apply the fix from Hekate 3.0 first !
 
 &nbsp;
 > **Will it brick my Switch ? Will it replace my system ?**
