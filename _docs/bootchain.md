@@ -13,7 +13,6 @@ permalink: /docs/bootchain/
     2. sets the kernel boot arguments
     3. resets USB and boots the kernel
 6. The kernel is packed with an init ramdisk - the init script :
-    1. Checks and mounts both partitions of the SD card
-        * FAT32 partition in `/flash`
-        * ext4 partition in `/storage`
-    2. Mounts the `/flash/SYSTEM` squashfs image as root filesystem
+    1. Checks and mounts the FAT32 partition of the SD card in `/flash`
+    2. Bind mounts `/flash/lakka/storage` as `/storage`
+    3. Mounts the `/flash/lakka/SYSTEM` squashfs image as root filesystem
