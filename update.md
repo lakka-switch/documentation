@@ -47,5 +47,5 @@ Then, you can [install the new Lakka](https://lakka-switch.github.io/documentati
         1. Backup everything on your FAT32 partition
         2. Format the entire card to FAT32 (use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/))
         3. Put your FAT32 files back
-3. Install the new Lakka
+3. [Install the new Lakka](https://lakka-switch.github.io/documentation/installation.html)
 4. Restore the storage partition content : files should be put in `lakka/storage`
