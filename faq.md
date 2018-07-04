@@ -103,13 +103,13 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
 1. Make sure that Audio driver is set to pulse and Audio and Audio sync are enabled
 2. Enable Bluetooth in Services
 3. Pair your headset using SSH : (use Putty on Windows, credentials are `root` and `root`)
-    0. `bluetoothctl`
-    1. `agent on`
-    2. `scan on`
-    3. Wait for your headset to show up and see its MAC address
-    4. `pair XX:XX:XX:XX:XX:XX`, put the correct MAC address (protip : use tab-completion)
-    5. `trust XX:XX:XX:XX:XX:XX`
-    6. `connect XX:XX:XX:XX:XX:XX`
+    1. `bluetoothctl`
+    2. `agent on`
+    3. `scan on`
+    4. Wait for your headset to show up and see its MAC address
+    5. `pair XX:XX:XX:XX:XX:XX`, put the correct MAC address (protip : use tab-completion)
+    6. `trust XX:XX:XX:XX:XX:XX`
+    7. `connect XX:XX:XX:XX:XX:XX`
 4. If the audio is choppy, make sure to update the boot/tegra210-nintendo-switch.dtb file on your SD card (take the one from the latest update archive)
 5. After a reboot, it should autoconnect to your device if it's available and still paired
 
