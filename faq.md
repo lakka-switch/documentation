@@ -102,7 +102,8 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
 
 1. Make sure that Audio driver is set to pulse and Audio and Audio sync are enabled
 2. Enable Bluetooth in Services
-3. Pair your headset using SSH and `bluetoothctl` (use Putty on Windows, credentials are `root` and `root`)
+3. Pair your headset using SSH : (use Putty on Windows, credentials are `root` and `root`)
+    0. `bluetoothctl`
     1. `agent on`
     2. `scan on`
     3. Wait for your headset to show up and see its MAC address
