@@ -35,7 +35,8 @@ Warning : your Lakka installation will be reset and you will loose everything (g
     1. Backup everything on your FAT32 partition
     2. Format the entire card to FAT32 (use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/))
     3. Put your files back
-    4. Install the new Lakka
+
+Then, you can [install the new Lakka](https://lakka-switch.github.io/documentation/installation.html).
     
 ### If you care about saving your data
 
