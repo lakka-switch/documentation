@@ -19,29 +19,14 @@ layout: page
     
 ## Step 1 : preparing the SD card
 
-### The easy way (recommended, formats your SD card)
-
-1. Download the latest compressed image from [here](https://natinusala.cheats-inc.org/natinusala/lakka-switch/archives/images/) (use your brain to grab the latest)
-2. Extract the image using the archiver of your choice (7-Zip wink wink)
-3. Burn the image to the SD card (**everything will be erased**)
-    * Either by using [Etcher](https://etcher.io/)
-    * Or by using the `dd` command directly
-    
-### The hard way (manual partitioning)
-
-1. Download the latest archive from [here](https://natinusala.cheats-inc.org/natinusala/lakka-switch/archives/updates/) (use your brain to grab the latest)
-2. Make sure that the first partition is FAT32 formatted
-3. Add an ext4 partition to your SD card with size of your choice - this will be the storage partition
-4. Extract the right files from the archive to the root of the **FAT32 partition** (replace everything) :
-    * `KERNEL`, `KERNEL.md5`, `SYSTEM` and `SYSTEM.md5` (contains the read-only system partition and the kernel)
-    * the content of the directory `3rdparty/bootloader` (contains the boot script and device tree)
-5. (advanced) If you want to set _another_ partition as storage, remake `boot/boot.scr` using `mkimage` and change the `disk` variable of the boot command
+0. Make sure that your SD card is FAT32 formatted, _exFAT will not work_
+1. Download the latest archive from [here](https://natinusala.cheats-inc.org/natinusala/lakka-switch/releases/) (use your brain to grab the latest)
+2. Extract the content of the directory in the archive to the root of your SD card
+    * You should have two folders, `boot` and `lakka`
 
 ## Step 2 : booting Lakka
 
 Once your SD card is set up, put it back in your Switch.
-
-{% include first_boot.html %}
 
 ### Booting from Windows
 
