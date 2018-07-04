@@ -22,6 +22,7 @@ layout: page
 0. Make sure that your SD card is FAT32 formatted, _exFAT will not work_
 1. Download the latest archive from [here](https://natinusala.cheats-inc.org/natinusala/lakka-switch/releases/) (use your brain to grab the latest)
 2. Extract the content of the directory in the archive to the root of your SD card
+    * Windows users can use 7-Zip
     * You should have two folders, `boot` and `lakka`
 
 ## Step 2 : booting Lakka
@@ -69,7 +70,7 @@ Install Python 3 (usually already installed). Open a terminal to install the req
     * `/storage/emulated/0/Android/data/io.mrarm.switchlinuxlauncher.noimx/files/shofel2`
     * `/sdcard/Android/data/io.mrarm.switchlinuxlauncher.noimx/files/shofel2`
 4. Exit the app (if you can close the task using the multitask button it's better)
-5. From the `payloads` folder of the repository, copy the `cbfs.bin` and `coreboot.rom` files to the `shofel2` folder on your Android device (the folder of the previous step)
+5. From the `payloads` folder of [this repository](https://github.com/lakka-switch/boot-scripts), copy the `cbfs.bin` and `coreboot.rom` files to the `shofel2` folder on your Android device (the folder of the previous step)
 6. Run the app again - if the dialog doesn't show up then you can go on, otherwise you did something wrong
 7. (Optional) Depending on your device, you might need to enable "OTG" or "OTG Storage" in the Android settings
 
