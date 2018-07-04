@@ -49,3 +49,4 @@ Then, you can [install the new Lakka](https://lakka-switch.github.io/documentati
         3. Put your FAT32 files back
 3. [Install the new Lakka](https://lakka-switch.github.io/documentation/installation.html)
 4. Restore the storage partition content : files should be put in `lakka/storage`
+5. **Delete `lakka/storage/.config/retroarch/retroarch.cfg` !**
