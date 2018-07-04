@@ -91,16 +91,9 @@ From your Switch, you can see this in the first tab, Information > Network Infor
 
 ***
 
-You need to copy your games to the `roms` directory of the storage partition. You have three ways of achieving that, depending on your host operating system : see [this guide](http://www.lakka.tv/doc/Accessing-Lakka-filesystem/) to know how.
+You need to copy your games to the `lakka/storage/roms` directory on your SD card.
 
 Once your games are copied, go to the tab which icon is a plus sign (on Lakka, on the Switch) and scan the directory where you added your game (you can just scan the top-level directory, it will go through everything recursively). If your games were recognized, new tabs will appear (one for each console) with them listed inside. If not, you can still load the game manually from the first tab.
-
-&nbsp;
-> **When I mount the storage partition on my PC I can't edit or delete any file, why ?**
-
-***
-
-Lakka only has one user : `root`. So, the files created by Lakka on the storage partition are all owned by `root`. When mounting the partition on your host PC, you therefore need root privileges to delete or edit the files created by Lakka. This is stupid but this is how it works. Protip : SMB and SCP both don't have this issue.
 
 &nbsp;
 > **How do I setup Bluetooth audio ?**
@@ -140,7 +133,9 @@ First, hold the POWER button for twelve seconds to make sure that the Switch if 
 
 ***
 
-Your RetroArch configuration file somehow got corrupted. Delete the `.config/retroarch/retroarch.cfg` file of the **storage** partition and try again. If doing it over SSH, don't forget to stop RetroArch first : `systemctl stop retroarch && rm -f /storage/.config/retroarch/retroarch.cfg && systemctl start retroarch`.
+Your RetroArch configuration file somehow got corrupted. Delete the `lakka/storage/.config/retroarch/retroarch.cfg` file on your SD card and try again. If doing it over SSH, don't forget to stop RetroArch first : `systemctl stop retroarch && rm -f /storage/.config/retroarch/retroarch.cfg && systemctl start retroarch`.
+
+Next time you power off your Switch from Lakka, remember to reboot to RCM first !
 
 &nbsp;
 > **My games are always freezing**
@@ -211,7 +206,7 @@ Just reboot then !
 To make PPSSPP work you first need to copy the assets in the system directory :
 
 1. Download [this archive](https://github.com/hrydgard/ppsspp/archive/master.zip)
-2. Using the method of your choice, extract all the content of the `assets` directory in the `system/PPSSPP` directory of the **storage partition** (create it if it doesn't exist)
+2. Using the method of your choice, extract all the content of the `assets` directory in the `lakka/storage/system/PPSSPP` directory on your SD card (create it if it doesn't exist)
 
 &nbsp;
 > **Can my console be banned because I used Lakka ?**
