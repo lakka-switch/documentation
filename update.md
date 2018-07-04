@@ -37,7 +37,7 @@ Warning : your Lakka installation will be reset and you will loose everything (g
     3. Put your files back
     4. Install the new Lakka
     
- ### If you care about saving your data
+### If you care about saving your data
 
 1. Backup everything on your storage partition
 2. Remove it :
