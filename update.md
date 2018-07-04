@@ -3,21 +3,48 @@ title: Updating Lakka
 layout: page
 ---
 
-## Automatic update
+## How to update
 
-1. Download the **latest** archive from [this repository](https://natinusala.cheats-inc.org/natinusala/lakka-switch/archives/updates/) (use your brain to grab the latest)
-2. Using the method of your choice, copy the archive to the `.update` directory of the **storage partition**
-3. The next (re)boot will automatically update your installation
+**TL;DR** The same as you did to install it : download the tarball and extract it
 
-### Something broken ?
+1. Download the latest archive from [here](https://natinusala.cheats-inc.org/natinusala/lakka-switch/releases/) (use your brain to grab the latest)
+2. Extract the content of the directory in the archive to the root of your SD card
+    * Windows users can use 7-Zip
+    * You should have updated two folders, `boot` and `lakka`
+    
+## Migrating from an old installation (new partitions layout)
 
-The update script will not update the device tree blob. This may break stuff when updating your copy of Lakka. You will need to update it manually if needed :
-1. Download the **latest** archive from [this repository](https://natinusala.cheats-inc.org/natinusala/lakka-switch/archives/updates/) (use your brain to grab the latest)
-2. Extract the content of the directory `3rdparty/bootloader` to the FAT32 partition of your SD card
+The 04/07/18 update changed the partitions layout - the "storage partition" is no longer an ext4 partition, as it has been replaced by a directory in the FAT32 partition. This allows everything to be centralized in one partition, and allows files to be modified from Windows more easily.
 
-## Manual update
+When applying this update, you will want to remove the now unused ext4 partition. Here is a quick guide depending on how you want to do it :
 
-1. Download the **latest** archive from [this repository](https://natinusala.cheats-inc.org/natinusala/lakka-switch/archives/updates/) (use your brain to grab the latest)
-2. Using the method of your choice, extract the right files from the archive to the root of the **FAT32 partition** (replace everything) :
-    * `KERNEL`, `KERNEL.md5`, `SYSTEM` and `SYSTEM.md5` (contains the read-only system partition and the kernel)
-    * the content of the directory `3rdparty/bootloader` (contains the boot script and device tree)
+### Cleaning up the old installation
+
+First, start by deleting those files :
+* `KERNEL`
+* `KERNEL.md5`
+* `SYSTEM`
+* `SYSTEM.md5`
+
+### If you don't care about saving your data
+
+Warning : your Lakka installation will be reset and you will loose everything (games, saves, configuration...) !
+
+* If you know how to use a partition manager, just remove the ext4 partition and resize the FAT32 partition at your convenience
+* If you don't know how to use a partition manager :
+    1. Backup everything on your FAT32 partition
+    2. Format the entire card to FAT32 (use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/))
+    3. Put your files back
+    4. Install the new Lakka
+    
+ ### If you care about saving your data
+
+1. Backup everything on your storage partition
+2. Remove it :
+    * If you know how to use a partition manager, just remove the ext4 partition and resize the FAT32 partition at your convenience
+    * If you don't know how to use a partition manager :
+        1. Backup everything on your FAT32 partition
+        2. Format the entire card to FAT32 (use [SDFormatter](https://www.sdcard.org/downloads/formatter_4/))
+        3. Put your FAT32 files back
+3. Install the new Lakka
+4. Restore the storage partition content : files should be put in `lakka/storage`
