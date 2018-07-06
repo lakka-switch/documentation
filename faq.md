@@ -91,7 +91,7 @@ From your Switch, you can see this in the first tab, Information > Network Infor
 
 ***
 
-You need to copy your games to the `lakka/storage/roms` directory on your SD card.
+You need to copy your games to the `lakka/storage/roms/downloads` directory on your SD card.
 
 Once your games are copied, go to the tab which icon is a plus sign (on Lakka, on the Switch) and scan the directory where you added your game (you can just scan the top-level directory, it will go through everything recursively). If your games were recognized, new tabs will appear (one for each console) with them listed inside. If not, you can still load the game manually from the first tab.
 
