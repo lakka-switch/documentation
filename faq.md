@@ -118,7 +118,7 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
 
 ***
 
-Open SSH and run the command `pactl load-module module-raop-discover`. This will discover all AirPlay receivers on your network and add them as PulseAudio sinks. Then, use `pactl` to select the sink corresponding to the desired receiver.
+Open SSH and run the command `pactl load-module module-raop-discover`. This will discover all AirPlay receivers on your network and add them as PulseAudio sinks. Then, use `pactl` to select the sink corresponding to the desired receiver. You can also use the module `module-raop-sink` to directly connect to the right receiver, given its IP (see full command below).
 
 You can use your Android device as an AirPlay receiver by using the [AirBubble](https://play.google.com/store/apps/details?id=com.bubblesoft.android.airbubble&hl=fr) app. 
 
