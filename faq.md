@@ -114,11 +114,19 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
 5. After a reboot, it should autoconnect to your device if it's available and still paired
 
 &nbsp;
-> **How do I setup AirPlay audio ?**
+> **How do I setup AirPlay audio ? (thanks to @rd for this guide)**
 
 ***
 
 Open SSH and run the command `pactl load-module module-raop-discover`. This will discover all AirPlay receivers on your network and add them as PulseAudio sinks. Then, use `pactl` to select the sink corresponding to the desired receiver.
+
+You can use your Android device as an AirPlay receiver by using the [AirBubble](https://play.google.com/store/apps/details?id=com.bubblesoft.android.airbubble&hl=fr) app. 
+
+If you want to use your Android device's own hotspot with AirPlay, you will need to use this command :
+
+`pactl load-module module-raop-sink server=[192.168.43.1]:5000  protocol=UDP encryption=RSA codec=ALAC channels=2 format=16 rate=44100 latency_msec=2000`
+
+Where `192.168.43.1` is the IP of your Android device. You shouldn't need to change this, as all Android devices have the same local IP on their own hotspot : 192.168.43.1. Should it not be valid, use `ip route` on Lakka : the default gateway IP will be the one to use (assuming you're connected to your hotspot).
 
 &nbsp;
 > **How do I shutdown my Switch from Lakka ?**
