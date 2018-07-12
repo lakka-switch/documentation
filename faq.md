@@ -114,6 +114,13 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
 5. After a reboot, it should autoconnect to your device if it's available and still paired
 
 &nbsp;
+> **How do I setup AirPlay audio ?**
+
+***
+
+Open SSH and run the command `pactl load-module module-raop-discover`. This will discover all AirPlay receivers on your network and add them as PulseAudio sinks. Then, use `pactl` to select the sink corresponding to the desired receiver.
+
+&nbsp;
 > **How do I shutdown my Switch from Lakka ?**
 
 ***
