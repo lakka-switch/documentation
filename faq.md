@@ -36,7 +36,7 @@ See this tiny table for a summary of what works and what doesn't :
 | GPU Profile Selection          | Wireless Joy-Cons |
 | SSH, SMB                       |                   |
 | SDXC cards
-| Bluetooth Audio (AD2P) | |
+| Audio through Bluetooth (A2DP) and AirPlay | |
 | Screen brightness control | |
 
 &nbsp;
