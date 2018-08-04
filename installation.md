@@ -20,7 +20,7 @@ layout: page
 ## Step 1 : preparing the SD card
 
 0. Make sure that your SD card is FAT32 formatted, _exFAT will not work_
-1. Download the latest stable archive from [here](https://natinusala.cheats-inc.org/natinusala/lakka-switch/releases/) (use your brain to grab the latest)
+1. Download the latest stable archive from [here]({% include download_link.html %}) (use your brain to grab the latest)
 2. Extract the content of the directory in the archive to the root of your SD card
     * Windows users can use 7-Zip
     * You should have two folders, `boot` and `lakka`
