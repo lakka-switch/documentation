@@ -195,7 +195,7 @@ See [the official Lakka documentation](http://www.lakka.tv/doc/Troubleshooting-L
 
 ***
 
-See [the official Lakka documentation](http://www.lakka.tv/doc/Troubleshooting-Lakka/) for a guide on how to set the correct timezone in Lakka.
+See [the official Lakka documentation](http://www.lakka.tv/doc/Timezone-settings/) for a guide on how to set the correct timezone in Lakka.
 
 &nbsp;
 > **How to resume playing after I got back to the menu with the HOME button ?**
