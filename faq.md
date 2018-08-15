@@ -257,4 +257,4 @@ Don't buy _me_ a beer. [Buy _libretro_ a beer.](https://www.patreon.com/libretro
 
 ***
 
-Lakka on Switch is not upsreamed yet so the buildbot is not configured for the Online Updater. It will be added back if / when the Switch project is merged with the original Lakka repository.
+Lakka on Switch is not upstreamed yet so the buildbot is not configured for the Online Updater. It will be added back if / when the Switch project is merged with the original Lakka repository.
