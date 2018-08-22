@@ -10,3 +10,5 @@ Those are the ones you should use.
 
 # Nightlies
 More features. Might melt your Switch.
+
+<iframe src="https://ctcaer.com/lakka/nightly/" frameBorder="0" style="width: 100%;"></iframe>
