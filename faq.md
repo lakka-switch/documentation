@@ -28,7 +28,7 @@ See this tiny table for a summary of what works and what doesn't :
 
 | Works                          | Doesn't work      |
 |:------------------------------:|:-----------------:|
-| Wi-Fi (after a reboot)         | Internal speakers & jack port |
+| Wi-Fi         | Internal speakers & jack port |
 | Bluetooth (partially)          | Sleep mode        |
 | Touch screen                   | Graceful shutdown |
 | Hardware graphics acceleration | USB Host          |
