@@ -4,15 +4,14 @@ permalink: /docs/bootchain/
 ---
 
 0. Switch is in RCM
-1. Exploit is triggered, CBFS is sent over USB
-2. The CBFS payload requests coreboot, which is loaded
-3. coreboot loads u-boot with `run distro_bootcmd` as a boot command
-4. u-boot loads `boot.scr` from the FAT32 partition of the SD card
-5. From `boot.scr`, u-boot :
+1. Exploit is triggered, hekate runs
+2. hekate loads and runs coreboot through `coreboot.rom` 
+3. coreboot loads and runs u-boot
+4. u-boot mounts the SD card and runs the `lakka/boot/boot.scr` boot script
     1. loads the kernel and device tree from the SD card
     2. sets the kernel boot arguments
     3. resets USB and boots the kernel
-6. The kernel is packed with an init ramdisk - the init script :
-    1. Checks and mounts the FAT32 partition of the SD card in `/flash`
+5. The kernel is packed with an init ramdisk - the init script :
+    1. Checks and mounts the SD card in `/flash`
     2. Bind mounts `/flash/lakka/storage` as `/storage`
     3. Mounts the `/flash/lakka/SYSTEM` squashfs image as root filesystem
