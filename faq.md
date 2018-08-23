@@ -73,11 +73,11 @@ See this tiny table for a summary of what works and what doesn't :
 * Remote RetroPad (use your Switch as a joypad for your PC)
 
 &nbsp;
-> **Why doesn't Wi-Fi Work ?**
+> **How do I change my Wi-Fi MAC Address ?**
 
 ***
 
-Wi-Fi won't work on a cold boot of the system. Therefore, you need to reboot at least once into RCM and run the exploit again to fix Wi-Fi connectivity.
+The MAC Address should be written in the chip in the factory, but for some reason Nintendo didn't do that. As a result, the MAC Address is software controlled, which means that Horizon has to manually set the address... and Lakka too. As we cannot pull the Horizon MAC from the NAND for now, Lakka uses a random address and writes it to `/storage/.config/macaddress`. If you want to use the same address as Horizon, you can by editing this file and rebooting.
 
 &nbsp;
 > **Where can I see the IP address of the Switch on my network ?**
