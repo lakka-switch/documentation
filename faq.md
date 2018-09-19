@@ -159,7 +159,7 @@ Next time you power off your Switch from Lakka, remember to reboot to RCM first 
 Enable Advanced settings in User Interface then disable Threaded Video in Video settings. It may enable itself again in the future so be careful.
 
 &nbsp;
-> **Sometimes the exploit works but nothing happens on my Switch**
+> **I have a black screen when trying to boot (hekate works)**
 
 ***
 
