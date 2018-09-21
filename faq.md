@@ -165,6 +165,8 @@ Enable Advanced settings in User Interface then disable Threaded Video in Video 
 
 It happens sometimes : it boots but the LCD stays black. When it happens, wait a bit for RetroArch to launch (to prevent corrupting the configuration file) and force shutdown by holding the POWER button for twelve seconds. Try to boot again. If it _still_ happens, reboot to Horizon before trying again.
 
+Sometimes however it will not boot at all, giving a black screen everytime you try. This is a know issue, and there is currently no known solution.
+
 &nbsp;
 > **Do my Joy-Cons charge when using Lakka ?**
 
