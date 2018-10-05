@@ -7,8 +7,10 @@ Clone and build [Lakka-LibreELEC](https://github.com/lakka-switch/Lakka-LibreELE
 
 ```
 cd Lakka-LibreELEC
-DISTRO=Lakka PROJECT=Switch ARCH=aarch64 make image
+DISTRO=Lakka PROJECT=Switch ARCH=arm make image
 ```
+
+You can use `ARCH=aarch64` to make a 64bit image.
 
 You will need arm-linux-gnueabi and aarch64-linux-gnu toolchains. [Linaro](https://releases.linaro.org/components/toolchain/binaries/latest-7/) have working toolchains.
 
