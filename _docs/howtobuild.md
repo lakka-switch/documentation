@@ -18,6 +18,4 @@ The first build can take between four and eight hours depending on your internet
 
 Somewhere during the build process process, a script will download and extract `tegra_mtc.bin` for you, directly from Google's servers (credits goes to vgmoose for that).
 
-You will encounter an error when compiling Linux, about an issue with `asm` includes. To fix this, delete the `linux-*` directory in the build directory, and try again.
-
 The output kernel, system image and release tarball will be placed in the `target` directory.
