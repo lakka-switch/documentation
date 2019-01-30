@@ -12,6 +12,9 @@ Here is a list of frequently asked questions and, obviously, an answer to each o
 
 The battery bug has been fixed as of the 02/07/2018 update. Be sure to apply the fix from Hekate 3.0 first !
 
+The known side-effects of using Linux on your Switch are :
+* RTC (Real-Time Clock) desynchronization - this will break the date and time in Horizon. To fix that, just stay online in Horizon or reset the time manually after each time you run Lakka.
+
 &nbsp;
 > **Will it brick my Switch ? Will it replace my system ?**
 
