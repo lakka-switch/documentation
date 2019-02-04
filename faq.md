@@ -115,6 +115,13 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
 3. If the audio is choppy, make sure to update the boot/tegra210-nintendo-switch.dtb file on your SD card (take the one from the latest update archive). If it doesn't work at all, make sure that Audio driver is set to pulse and Audio and Audio sync are enabled.
 
 &nbsp;
+> **Why doesn't my Bluetooth speaker automatically reconnect when rebooting ?**
+
+***
+
+Ask the developers of BlueZ why they used `:` in file and folder names for their config. Hint: it's an illegal character for both ext4 and FAT32 filesystems, but FAT32 happens to totally reject it while ext4 allows it if escaped. We use FAT32.
+
+&nbsp;
 > **How do I setup AirPlay audio ? (thanks to @rd for this guide)**
 
 ***
