@@ -6,7 +6,7 @@ layout: page
 Here is a list of frequently asked questions and, obviously, an answer to each of them. What you want may already be listed on the [official Lakka FAQ](http://www.lakka.tv/doc/FAQ/) so check it out aswell.
 
 &nbsp;
-> **Does Lakka still have [insert standard Linux issues here] ?**
+> **How stable and safe is Linux to use ?**
 
 ***
 
@@ -14,13 +14,14 @@ The battery bug has been fixed as of the 02/07/2018 update. Be sure to apply the
 
 The known side-effects of using Linux on your Switch are :
 * RTC (Real-Time Clock) desynchronization - this will break the date and time in Horizon. To fix that, just stay online in Horizon or reset the time manually after each time you run Lakka.
+* Possible unsafe SD Card unmounting ; your PC will ask for a repair (or mount the SD Card read only), do it if you want. If `REC` files appear on the root of the card, it means that some files were corrupted. Avoid force shutting down the system (always go back to RCM first) to prevent that from happening.
 
 &nbsp;
-> **Will it brick my Switch ? Will it replace my system ?**
+> **Will it brick my Switch ? Will it replace the official operating system ?**
 
 ***
 
-**No.** Lakka boots from the SD card, it never touches the NAND of the console. It's a "dual boot", if you prefer. However, using Lakka does have side effects, listed in the above question.
+**No.** Lakka boots from the SD card, it never touches the NAND of the console. It's a "dual boot", if you prefer.
 
 &nbsp;
 > **What currently works ? What doesn't ?**
@@ -31,15 +32,15 @@ See this tiny table for a summary of what works and what doesn't :
 
 | Works                          | Doesn't work      |
 |:------------------------------:|:-----------------:|
-| Wi-Fi         | Internal speakers & jack port |
-| Bluetooth (partially)          | Sleep mode        |
-| Touch screen                   | Graceful shutdown |
-| Hardware graphics acceleration | USB Host          |
+| Wi-Fi         | Wireless Joy-Cons  |
+| Graceful shutdown          | Sleep mode        |
+| Touch screen                   | Bluetooth |
+| Full speed GPU driver (nvgpu) with OpenGL and Vulkan | USB Host          |
 | Wired Joy-Cons (it means attached to the console)                | Dock support      |
-| GPU Profile Selection          | Wireless Joy-Cons |
+| Full speed CPU, GPU and RAM (with overclock GUI)          | Audio through Bluetooth (A2DP) and AirPlay  |
 | SSH, SMB                       |                   |
-| SDXC cards
-| Audio through Bluetooth (A2DP) and AirPlay | |
+| All types of SD Cards
+| Audio through internal speakers & headphones  | |
 | Screen brightness control | |
 
 &nbsp;
