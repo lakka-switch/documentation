@@ -11,7 +11,7 @@ Those are the ones you should use, based on Linux4Tegra.
 
 # Deprecated versions
 
-Here, you will find old versions of Lakka for the Switch, using the mainline kernel and no features.
+Here, you will find old versions of Lakka for the Switch, using the mainline kernel and without sexy features.
 
 ## Deprecated `arm` stables
 
