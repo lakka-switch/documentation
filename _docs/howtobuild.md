@@ -7,10 +7,10 @@ Clone and build [Lakka-LibreELEC](https://github.com/lakka-switch/Lakka-LibreELE
 
 ```
 cd Lakka-LibreELEC
-DISTRO=Lakka PROJECT=Switch ARCH=arm make image
+PROJECT=Switch DEVICE=L4T ARCH=aarch64 make image
 ```
 
-You can use `ARCH=aarch64` to make a 64bit image.
+You can use `DEVICE=mainline` to use the mainline kernel instead of L4T (deprecated). Mainline supports `arm` (`armv7`) and `aarch64` architectures. L4T only supports `aarch64`.
 
 You will need arm-linux-gnueabi and aarch64-linux-gnu toolchains. [Linaro](https://releases.linaro.org/components/toolchain/binaries/latest-7/) have working toolchains.
 
