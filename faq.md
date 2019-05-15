@@ -37,10 +37,10 @@ See this tiny table for a summary of what works and what doesn't :
 | Touch screen                   | Bluetooth |
 | Full speed GPU driver (nvgpu) with OpenGL and Vulkan | USB Host          |
 | Wired Joy-Cons (it means attached to the console)                | Dock support      |
-| Full speed CPU, GPU and RAM (with overclock GUI)          | Audio through Bluetooth (A2DP) and AirPlay  |
+| Full speed CPU, GPU and RAM (with overclock GUI)          | Audio through Bluetooth (A2DP)  |
 | SSH, SMB                       |                   |
 | All types of SD Cards
-| Audio through internal speakers & headphones  | |
+| Audio through internal speakers, headphones and AirPlay  | |
 | Screen brightness control | |
 
 &nbsp;
