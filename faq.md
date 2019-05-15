@@ -36,7 +36,7 @@ See this tiny table for a summary of what works and what doesn't :
 | Audio through internal speakers, headphones and AirPlay          | Sleep mode        |
 | Touch screen                   | Bluetooth (so no Bluetooth audio, no wireless controllers) |
 | Full speed GPU driver (nvgpu) with OpenGL and Vulkan | Dock isn't enabled due to missing wireless Joy-Cons driver     |
-| Wired Joy-Cons (it means attached to the console)                |       |
+| Wired Joy-Cons (it means attached to the console)                |  exFAT formatted SD cards     |
 | Full speed CPU, GPU and RAM (with overclock GUI)          |   |
 | Wireless services: SSH, SMB                       |                   |
 | All types of SD Cards
