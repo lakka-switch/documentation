@@ -33,14 +33,14 @@ See this tiny table for a summary of what works and what doesn't :
 | Works                          | Doesn't work      |
 |:------------------------------:|:-----------------:|
 | Wi-Fi         | Wireless Joy-Cons  |
-| Graceful shutdown          | Sleep mode        |
-| Touch screen                   | Bluetooth |
-| Full speed GPU driver (nvgpu) with OpenGL and Vulkan |      |
-| Wired Joy-Cons (it means attached to the console)                | Dock works (audio, video, USB) but isn't enabled due to missing wireless Joy-Cons driver      |
-| Full speed CPU, GPU and RAM (with overclock GUI)          | Audio through Bluetooth (A2DP)  |
+| Audio through internal speakers, headphones and AirPlay          | Sleep mode        |
+| Touch screen                   | Bluetooth (so no Bluetooth audio, no wireless controllers) |
+| Full speed GPU driver (nvgpu) with OpenGL and Vulkan | Dock works (audio, video, USB) but isn't enabled due to missing wireless Joy-Cons driver     |
+| Wired Joy-Cons (it means attached to the console)                |       |
+| Full speed CPU, GPU and RAM (with overclock GUI)          |   |
 | Wireless services: SSH, SMB                       |                   |
 | All types of SD Cards
-| Audio through internal speakers, headphones and AirPlay  | |
+| Graceful shutdown  | |
 | Screen brightness control | |
 | USB Device (gadget): serial console | | 
 
