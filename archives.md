@@ -11,4 +11,4 @@ Those are the ones you should use, based on Linux4Tegra.
 
 # Deprecated versions
 
-You can download old and deprecated versions of Lakka for the Switch [here](deprecated.html). They use the mainline kernel and have no sexy feature. Of course, they are not supported, and shouldn't be used (unless you want 200FPS PSX).
+You can download old and deprecated versions of Lakka for the Switch [here](deprecated.html). They use the mainline kernel and have no sexy feature. Of course, they are not supported, and shouldn't be used (unless you want 200FPS PSX without sound).
