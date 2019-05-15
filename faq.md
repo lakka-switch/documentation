@@ -72,6 +72,8 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
 
 ***
 
+**Please note that Bluetooth is currently broken. Do not bother trying this as it will not work.**
+
 1. Enable Bluetooth in Services
 2. Pair your headset using SSH : (use Putty on Windows, credentials are `root` and `root`)
     1. `bluetoothctl`
@@ -82,13 +84,6 @@ Once your games are copied, go to the tab which icon is a plus sign (on Lakka, o
     6. `trust XX:XX:XX:XX:XX:XX`
     7. `connect XX:XX:XX:XX:XX:XX`
 3. If the audio is choppy, make sure to update the boot/tegra210-nintendo-switch.dtb file on your SD card (take the one from the latest update archive). If it doesn't work at all, make sure that Audio driver is set to pulse and Audio and Audio sync are enabled.
-
-&nbsp;
-> **Why doesn't my Bluetooth speaker automatically reconnect when rebooting ?**
-
-***
-
-Ask the developers of BlueZ why they used `:` in file and folder names for their config. Hint: it's an illegal character for both ext4 and FAT32 filesystems, but FAT32 happens to totally reject it while ext4 allows it if escaped. We use FAT32.
 
 &nbsp;
 > **How do I setup AirPlay audio ? (thanks to @rd for this guide)**
@@ -110,7 +105,7 @@ Where `192.168.43.1` is the IP of your Android device. You shouldn't need to cha
 
 ***
 
-Short answer : you can't, reboot to Horizon then shutdown. Long answer : the shutdown option in Lakka was removed for safety reasons ; to shutdown, reboot to RCM then press the POWER button for twelve seconds. It is a good idea to boot in Horizon to shutdown properly from here.
+Short answer : you can't, you have to reboot to Horizon then shutdown. Long answer : the shutdown option in Lakka was removed for safety reasons ; to shutdown, reboot to RCM then press the POWER button for twelve seconds. It is a good idea to boot in Horizon to shutdown properly from here.
 
 &nbsp;
 > **My Switch doesn't turn on anymore / won't turn on unless it's docked / it's bricked**
@@ -122,7 +117,7 @@ Don't worry, your Switch is not bricked. You most probably left it in RCM mode f
 First, hold the POWER button for twelve seconds to make sure that the Switch if off, then place it on the dock and wait for it to charge at 100%. Don't forget that the battery is decalibrated !
 
 &nbsp;
-> **I have black squares everywhere, the font is ugly and nothing works**
+> **I don't have any icons, the font is ugly and nothing works**
 
 ***
 
@@ -145,6 +140,27 @@ Enable Advanced settings in User Interface then disable Threaded Video in Video 
 It happens sometimes : it boots but the LCD stays black. When it happens, wait a bit for RetroArch to launch (to prevent corrupting the configuration file) and force shutdown by holding the POWER button for twelve seconds. Try to boot again. If it _still_ happens, reboot to Horizon before trying again.
 
 Sometimes however it will not boot at all, giving a black screen everytime you try. This is a know issue, and there is currently no known solution.
+
+&nbsp;
+> **How can I get boot logs?**
+
+***
+
+Lakka can use USB as serial output to gather boot and shutdown logs from your PC. This only works if the backlight is on (if your copy of Lakka crashes before turning the backlight on, don't bother trying).
+
+1. On your SD card, go to /lakka/boot, remove boot.scr and rename boot_usb.scr to boot.scr.
+2. Boot Lakka
+3. Plug the Switch to your PC (using an USB-C cable)
+4. If you're using Windows, go to the device manager and check the COM port corresponding to the Switch (warning: it will change it you change the USB port you plug the cable into)
+5. You can now use PuTTY (or similar) to get the logs on the COM port you got in the previous step
+
+Now to gather boot logs:
+1. Boot hekate
+2. Plug the Switch to your PC
+3. Open PuTTY, don't open the COM port yet
+4. Boot Lakka
+5. As soon as the Switch is connected to your PC (Windows will chime), open the COM port in PuTTY (chad Linux can use a udev rule to open a terminal automatically instead)
+6. You will drop a few early boot messages but most useful stuff will be there (late kernel boot + systemd userland logs).
 
 &nbsp;
 > **Do my Joy-Cons charge when using Lakka ?**
@@ -236,4 +252,4 @@ Don't buy _me_ a beer. [Buy _libretro_ a beer.](https://www.patreon.com/libretro
 
 ***
 
-Lakka on Switch is not upstreamed yet so the buildbot is not configured for the Online Updater. It will be added back if / when the Switch project is merged with the original Lakka repository.
+There is no need to use the Online Updater, so it's disabled to avoid breaking things.
