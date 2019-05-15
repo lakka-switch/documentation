@@ -54,6 +54,17 @@ Go to Settings > User Interface and enable Advanced Settings. Now, go back to th
 **Warning:** Do NOT set any of the drivers to `null` before restarting RetroArch! If you do so, you will need to edit the config file manually to fix it.
 
 &nbsp;
+> **Which cores support Vulkan?**
+
+***
+
+- All 2D / software rendered cores (PCSX ReARMed counts as software rendered)
+- Beetle PSX HW
+- Dolphin
+
+Please go back to OpenGL for any core that's not in this list.
+
+&nbsp;
 > **How do I change my Wi-Fi MAC Address ?**
 
 ***
