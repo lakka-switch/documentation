@@ -240,6 +240,13 @@ To make PPSSPP work you first need to copy the assets in the system directory :
 2. Using the method of your choice, extract all the content of the `assets` directory in the `lakka/storage/system/PPSSPP` directory on your SD card (create it if it doesn't exist)
 
 &nbsp;
+> **reicast (Dreamcast emulator) doesn't work / displays a black screen**
+
+***
+
+You need to place the Dreamcast BIOS files in the `lakka/storage/system/DC` directory on your SD card (create it if it doesn't exist).
+
+&nbsp;
 > **Touchscreen doesn't work in DeSmuME (DS emulator) / games are slow**
 
 ***
