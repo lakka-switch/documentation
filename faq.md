@@ -45,39 +45,6 @@ See this tiny table for a summary of what works and what doesn't :
 | USB Device (gadget): serial console | | 
 
 &nbsp;
-> **Which consoles and systems are currently supported ?**
-
-***
-
-{% include consoles_list.html %}
-
-&nbsp;
-> **Which standalone games are currently included ?**
-
-***
-
-* 2048
-* cannonball
-* Cave Story
-* Dinotharw
-* PrBoom (Doom 1 rewrite)
-* Mr.Boom (Bomberman clone)
-* TyrQuake (Quake 1 rewrite)
-* XRick (Rick Dangerous rewrite)
-
-&nbsp;
-> **Which miscellaneous cores are currently included ?**
-
-***
-
-* ChaiLove (2D game framework)
-* Game Music Emu (video games music player)
-* Lutro (LUA game engine)
-* PocketCDG (karaoke music player)
-* EasyRPG (RPG Maker 2000/2003 engine)
-* Remote RetroPad (use your Switch as a joypad for your PC)
-
-&nbsp;
 > **How do I change my Wi-Fi MAC Address ?**
 
 ***
