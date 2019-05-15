@@ -45,6 +45,15 @@ See this tiny table for a summary of what works and what doesn't :
 | USB Device (gadget): serial console | | 
 
 &nbsp;
+> **How do I enable Vulkan ?**
+
+***
+
+Go to Settings > User Interface and enable Advanced Settings. Now, go back to the top of the Settings list and go to Drivers. Here, you can change the video driver from `gl` (OpenGL) to `vulkan`, or the opposite. Then, restart RetroArch for the change to take effect.
+
+**Warning:** Do NOT set any of the drivers to `null` before restarting RetroArch! If you do so, you will need to edit the config file manually to fix it.
+
+&nbsp;
 > **How do I change my Wi-Fi MAC Address ?**
 
 ***
