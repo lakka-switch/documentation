@@ -4,17 +4,24 @@ layout: page
 ---
 
 # Stable releases
-Those are the ones you should use.
+
+Those are the ones you should use, based on Linux4Tegra.
+
+<iframe src="https://ctcaer.com/lakka/l4t/" frameBorder="0" style="width: 100%;"></iframe>
+
+# Deprecated versions
+
+Here, you will find old versions of Lakka for the Switch, using the mainline kernel and no features.
+
+## Deprecated `arm` stables
 
 <iframe src="https://ctcaer.com/lakka/stable/" frameBorder="0" style="width: 100%;"></iframe>
 
-# Nightlies
-More features. Might melt your Switch.
+# Deprecated `arm` nightlies
 
 <iframe src="https://ctcaer.com/lakka/nightly/" frameBorder="0" style="width: 100%;"></iframe>
 
-# `aarch64` builds
-Those are 64bit builds : Dolphin is here but everything else is slow. The latest `aarch64` build may not be up to date as I don't upload them if nobody asks for it ; if you want an updated build, please ask me and I'll upload a new one.
+# Deprecated `aarch64` builds
 
 <iframe src="https://ctcaer.com/lakka/aarch64/" frameBorder="0" style="width: 100%;"></iframe>
 
