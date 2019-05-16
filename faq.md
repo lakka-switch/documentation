@@ -38,7 +38,7 @@ See this tiny table for a summary of what works and what doesn't :
 | Full speed GPU driver (nvgpu) with OpenGL and Vulkan              | Dock isn't enabled due to missing wireless Joy-Cons driver     |
 | Wired Joy-Cons (it means attached to the console)                |  exFAT formatted SD cards     |
 | Full speed CPU, GPU and RAM (with overclock GUI)                  | Unofficial Joy-Cons (such as the Hori ones)   |
-| Wireless services: SSH, SMB                       |                   |
+| Wireless services: SSH, SMB                                       | Reboot to payload / Reboot to Horizon                   |
 | All types of SD Cards
 | Graceful shutdown  | |
 | Screen brightness control | |
