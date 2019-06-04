@@ -121,13 +121,6 @@ If you want to use your Android device's own hotspot with AirPlay, you will need
 Where `192.168.43.1` is the IP of your Android device. You shouldn't need to change this, as all Android devices have the same local IP on their own hotspot : 192.168.43.1. Should it not be valid, use `ip route` on Lakka : the default gateway IP will be the one to use (assuming you're connected to your hotspot).
 
 &nbsp;
-> **How do I shutdown my Switch from Lakka ?**
-
-***
-
-Short answer : you can't, you have to reboot to Horizon then shutdown. Long answer : the shutdown option in Lakka was removed for safety reasons ; to shutdown, reboot to RCM then press the POWER button for twelve seconds. It is a good idea to boot in Horizon to shutdown properly from here.
-
-&nbsp;
 > **My Switch doesn't turn on anymore / won't turn on unless it's docked / it's bricked**
 
 ***
